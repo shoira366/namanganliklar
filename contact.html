@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="./css/normalize.css">
+   <link rel="stylesheet" href="./css/fonts.css">
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="box-wrapper">
+                <div class="box-wrapper-left">
+                    <a class="logo_link" href="#">
+                        <img class="logo" src="./images/logo.svg" width="306" height="33" alt="logo">
+                    </a>
+                    <div class="valyutas">
+                        <p class="valyuta"><span class="valyuta_icon">$</span> 10137.2</p>
+                        <p class="valyuta"><span class="valyuta_icon">P</span> 138.26</p>
+                        <p class="valyuta"><span class="valyuta_icon">E</span> 10988.72</p>
+                    </div>
+                    <div class="box-wrapper-right">
+                        <button class="button img">
+                            <img class="lupa" src="./images/lupa.svg" width="17" height="17" alt="lupa">
+                        </button>
+                        <button class="button mini_box">
+                            <img class="img_flag" src="./images/flags.svg" alt="flag">
+                            <span class="language">РУ</span>
+                        </button>
+                        <button class="button button_fol">
+                            <img class="img_telegram" src="./images/telegram.svg" alt="telegram">
+                            <span class="follow">Подписатся</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="menu_item"><a class="menu_link" href="#">Узбекистана</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Мир   </a></li>
+                    <li class="menu_item"><a class="menu_link" href="#"> Экономика</a></li>
+                    <li class="menu_item"><a class="menu_link" href="list.html">   Политика</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">    Общество</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#"> Технологии</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">    Спорт</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">    Культура</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">    Происшествия</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#"> Туризм</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="img_banner">
+                <img class="banner" src="./images/banner.png" 
+                srcset="./images/banner.png 1x, ./images/banner@2x.png 2x"   width="1200" height="99" alt="banner">
+            </a>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <section>
+                <div class="form_box-left">
+                    <h2>Напишите нам</h2>
+                    <form method="POST" action="http://echo.htmlacademy.ru">
+                        <input class="input input_name" type="text" placeholder="Имя" name="user_name" required> <br>
+
+                        <input class="input input_email" name="user_email" type="email" placeholder="Электронная почта" required> <br>
+
+                        <input class="input input_number" name="phone_number" type="tel" placeholder="Номер телефона" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$" required > <br>
+
+                        <input class="input input_tema" type="text" name="theme" placeholder="Тема" required > <br>
+                        
+                       <textarea class="input input_text" placeholder="Текст" name="text" id="s" cols="30" rows="10"></textarea>
+
+                        <label class="label_file" for="file-input">
+                           <span class="span_file">Прикрепить файл</span>
+                           <img src="./images/file-1.svg" width="24" height="24" alt="file">
+                            <input class="file-input"  type="file" name="file" id="file-input">
+                        </label>  <br>
+                        <div class="code_box">
+                            <input class="code_input" placeholder="Код" type="password" name="code" required>
+                            <span class="promt">4 k 7 Z a</span>
+                        </div>
+                        <button class="send" type="submit">Отправить</button>
+                    </form>
+                </div>
+                
+                
+                
+                <aside class="aside_follow">
+                    <div>
+                        <img class="aside_img" src="./images/logo.svg" alt="logo">
+                    </div>
+                    <div class="post_office">
+                        <p class="email">Электронная почта</p>
+                        <p>info@namanganliklar24.uz</p>
+                    </div>
+                    <div class="social_set">
+                        <p class="social_text">Социальные сети</p>
+                        <img class="facebook" src="./images/facebook.svg" width="32" height="32" alt="facebook">
+                        <img class="twitter" src="./images/twitter.svg" width="32" height="32" alt="twitter">
+                        <img class="odno" src="./images/odnoklasskini.svg" width="32" height="32" alt="odnoklassniki">
+                    </div>
+                    <div class="telegram">
+                        <p class="tg_channal">Телеграм канал</p>
+                        <button class="teleg_but">
+                            <img class="teleg_img" src="./images/telegram.svg" width="20" height="20" alt="telegram">
+                            <span>Подписатся</span>
+                        </button>
+                    </div>
+                    <div class="mob_box">
+                        <p class="mob_text">Мобильная приложение</p>
+                        <img class="yuklash" src="./images/yuklab-oling.svg" width="111" height="33" alt="play-market">
+                        <img src="./images/store-yuklab-oling.svg" width="109" height="33" alt="">
+                    </div>
+                </aside>
+            </section>
+        </div>
+    </main>
+
+    <!-- footer qismi -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_top">
+                <a class="footer_link" href="#">
+                    <img class="footer_img" src="./images/logo-2.svg" alt="logo-2">
+                </a>
+                <p class="footer_follow">Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних
+                    новостей:</p>
+                <a href="#" class="footer_button">
+                    <img class="foot_tg" src="./images/telegram-2.svg" alt="telegram">
+                    <span class="foot_fol">Подписатся</span>
+                </a>
+            </div>
+            <hr class="footer_line">
+            <div class="footer_bottom">
+                <div class="about_site">
+                    <h4 class="about_title">О сайте </h4>
+                    <blockquote class="about_text">
+                        Воспроизводство, копирование, тиражирование, распростране ние и иное использование информации с
+                        сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+                    </blockquote>
+                </div>
+                <div class="footer_menu">
+                    <ul class="footer_list">
+                        <li class="footer_main-box">
+                            <span class="footer_item"> <a class="footer_btn" href="#">Информация о сайте</a></span>
+                            <span class="footer_item"> <a class="footer_btn" href="#">Напишите нам </a></span>
+                            <span class="footer_item"> <a class="footer_btn" href="#"> Реклама </a></span>
+                            <span class="footer_item"> <a class="footer_btn" href="#"> Прислать новость</a></span>
+                        </li>
+                        <li class="footer_add-box">
+                            <span class="footer_item"> <a class="footer_btn" href="#">Использование материалов </a></span>
+                            <span class="footer_item"> <a class="footer_btn" href="#"> Темы дня </a></span>
+                            <span class="footer_item"> <a class="footer_btn" href="#"> Наша команда</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+</html>
