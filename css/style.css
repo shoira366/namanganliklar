@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 1220px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -125,7 +125,7 @@ body {
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    
+
 }
 
 .menu_link {
@@ -148,7 +148,7 @@ body {
 
 /*--------- 2-qism----------- */
 
-.covid-19 {
+.covid-19 .container {
     width: 1200px;
     height: 133px;
     padding: 30px 0 29px 35px;
@@ -248,21 +248,23 @@ body {
     list-style-type: none;
     margin-top: 18px;
 }
-.section_title{
+
+.section_title {
     position: absolute;
-    
+
     width: 1px;
     height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
-    
+
     white-space: nowrap;
-    
+
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .section-item {
     margin-right: 20px;
     margin-bottom: 18px;
@@ -318,7 +320,7 @@ body {
 
 /* ----------4-qism------------ */
 
-.section-2 {
+.section-2 .container {
     display: flex;
     align-items: center;
     width: 1201px;
@@ -340,7 +342,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    
+
     color: #000000;
 }
 
@@ -350,7 +352,7 @@ body {
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-    
+
     padding: 8px 8px 8px 15px;
     background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
     border-radius: 5px;
@@ -360,16 +362,22 @@ body {
 
 /* -----------5-qism------------ */
 
+
+.section-3 .container {
+    display: flex;
+    margin-top: 12px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
 .news {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #000000;
-    margin-top: 38px;
-}
-
-.section-3 {
-    display: flex;
 }
 
 .news_box {
@@ -420,12 +428,12 @@ body {
     font-size: 17px;
     line-height: 20px;
     color: #FFFFFF;
-    
+
     padding: 10px 32px 10px 31px;
     background: #295093;
     border-radius: 5px;
     margin: 0 auto;
-    
+
 }
 
 .aside_wrapper {
@@ -486,10 +494,8 @@ body {
 
 /* ----------6-qism----------- */
 
-.section-4 {
+.section-4 .container {
     display: flex;
-    width: 1200px;
-    height: 214px;
     margin-top: 38px;
     background: #F6F6F9;
     border-radius: 5px;
@@ -547,14 +553,14 @@ body {
 .footer_top {
     display: flex;
     align-items: center;
-    
+
 }
 
 .footer_follow {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    
+
     color: #FFFFFF;
 }
 
@@ -585,7 +591,7 @@ body {
     font-size: 14px;
     line-height: 17px;
     color: #295093;
-    
+
 }
 
 .footer_line {
@@ -629,14 +635,16 @@ body {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    
+
 }
 
 .footer_main-box {
     margin-right: 115px;
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
-.footer_add-box{
+
+.footer_add-box {
     display: flex;
     flex-direction: column;
 }
@@ -655,7 +663,7 @@ body {
     margin-bottom: 13px;
 }
 
-.more_information {
+.more_information .container {
     display: flex;
 }
 
@@ -678,7 +686,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    
+
     color: #000000;
     margin-top: 20px;
 }
@@ -695,7 +703,7 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    
+
     color: #28508E;
 }
 
@@ -720,7 +728,7 @@ body {
 
 /* ------------contact css------------- */
 
-section {
+.contact .container {
     display: flex;
     margin-top: 40px;
 }
@@ -741,7 +749,7 @@ section {
     margin-top: 12px;
     font-size: 18px;
     line-height: 21px;
-    
+
     color: #888888;
 }
 
@@ -749,7 +757,7 @@ section {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    
+
     color: #888888;
 }
 
@@ -757,7 +765,7 @@ section {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    
+
     color: #888888;
 }
 
@@ -765,7 +773,7 @@ section {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    
+
     color: #888888;
 }
 
@@ -796,13 +804,13 @@ section {
 
 .file-input {
     position: absolute;
-    
+
     width: 1px;
     height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
-    
+
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
@@ -824,7 +832,7 @@ section {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    
+
     color: #888888;
     background: #FBFBFB;
     opacity: 0.3;
@@ -848,7 +856,7 @@ section {
     line-height: 21px;
     color: #FFFFFF;
     padding: 15px 61px 14px 61px;
-    
+
     background: #295093;
     border: 2px solid rgba(40, 81, 147, 0.54);
     box-sizing: border-box;
@@ -926,9 +934,9 @@ section {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    
+
     color: #FFFFFF;
-    
+
 }
 
 .tg_channal {
@@ -1022,7 +1030,7 @@ section {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-    
+
     color: #FFFFFF;
     margin-left: 11px;
 }

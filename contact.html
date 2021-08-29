@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <link rel="stylesheet" href="./css/normalize.css">
-   <link rel="stylesheet" href="./css/fonts.css">
-   <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -40,46 +42,50 @@
             <nav class="nav">
                 <ul class="menu">
                     <li class="menu_item"><a class="menu_link" href="#">Узбекистана</a></li>
-                    <li class="menu_item"><a class="menu_link" href="#">Мир   </a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Мир </a></li>
                     <li class="menu_item"><a class="menu_link" href="#"> Экономика</a></li>
-                    <li class="menu_item"><a class="menu_link" href="list.html">   Политика</a></li>
-                    <li class="menu_item"><a class="menu_link" href="#">    Общество</a></li>
+                    <li class="menu_item"><a class="menu_link" href="list.html"> Политика</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#"> Общество</a></li>
                     <li class="menu_item"><a class="menu_link" href="#"> Технологии</a></li>
-                    <li class="menu_item"><a class="menu_link" href="#">    Спорт</a></li>
-                    <li class="menu_item"><a class="menu_link" href="#">    Культура</a></li>
-                    <li class="menu_item"><a class="menu_link" href="#">    Происшествия</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#"> Спорт</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#"> Культура</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#"> Происшествия</a></li>
                     <li class="menu_item"><a class="menu_link" href="#"> Туризм</a></li>
                 </ul>
             </nav>
             <a href="#" class="img_banner">
-                <img class="banner" src="./images/banner.png" 
-                srcset="./images/banner.png 1x, ./images/banner@2x.png 2x"   width="1200" height="99" alt="banner">
+                <img class="banner" src="./images/banner.png" srcset="./images/banner.png 1x, ./images/banner@2x.png 2x"
+                    width="1200" height="99" alt="banner">
             </a>
         </div>
     </header>
 
 
     <main>
-        <div class="container">
-            <section>
+
+        <section class="contact">
+            <div class="container">
                 <div class="form_box-left">
                     <h2>Напишите нам</h2>
                     <form method="POST" action="http://echo.htmlacademy.ru">
                         <input class="input input_name" type="text" placeholder="Имя" name="user_name" required> <br>
 
-                        <input class="input input_email" name="user_email" type="email" placeholder="Электронная почта" required> <br>
+                        <input class="input input_email" name="user_email" type="email" placeholder="Электронная почта"
+                            required> <br>
 
-                        <input class="input input_number" name="phone_number" type="tel" placeholder="Номер телефона" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$" required > <br>
+                        <input class="input input_number" name="phone_number" type="tel" placeholder="Номер телефона"
+                            pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$" required> <br>
 
-                        <input class="input input_tema" type="text" name="theme" placeholder="Тема" required > <br>
-                        
-                       <textarea class="input input_text" placeholder="Текст" name="text" id="s" cols="30" rows="10"></textarea>
+                        <input class="input input_tema" type="text" name="theme" placeholder="Тема" required> <br>
+
+                        <textarea class="input input_text" placeholder="Текст" name="text" id="s" cols="30"
+                            rows="10"></textarea>
 
                         <label class="label_file" for="file-input">
-                           <span class="span_file">Прикрепить файл</span>
-                           <img src="./images/file-1.svg" width="24" height="24" alt="file">
-                            <input class="file-input"  type="file" name="file" id="file-input">
-                        </label>  <br>
+                            <span class="span_file">Прикрепить файл</span>
+                            <img src="./images/file-1.svg" width="24" height="24" alt="file">
+                            <input class="file-input" type="file" name="file" id="file-input">
+                        </label> <br>
                         <div class="code_box">
                             <input class="code_input" placeholder="Код" type="password" name="code" required>
                             <span class="promt">4 k 7 Z a</span>
@@ -87,9 +93,9 @@
                         <button class="send" type="submit">Отправить</button>
                     </form>
                 </div>
-                
-                
-                
+
+
+
                 <aside class="aside_follow">
                     <div>
                         <img class="aside_img" src="./images/logo.svg" alt="logo">
@@ -117,8 +123,9 @@
                         <img src="./images/store-yuklab-oling.svg" width="109" height="33" alt="">
                     </div>
                 </aside>
-            </section>
-        </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- footer qismi -->
@@ -154,7 +161,8 @@
                             <span class="footer_item"> <a class="footer_btn" href="#"> Прислать новость</a></span>
                         </li>
                         <li class="footer_add-box">
-                            <span class="footer_item"> <a class="footer_btn" href="#">Использование материалов </a></span>
+                            <span class="footer_item"> <a class="footer_btn" href="#">Использование материалов
+                                </a></span>
                             <span class="footer_item"> <a class="footer_btn" href="#"> Темы дня </a></span>
                             <span class="footer_item"> <a class="footer_btn" href="#"> Наша команда</a></span>
                         </li>
@@ -167,4 +175,5 @@
 
 
 </body>
+
 </html>
